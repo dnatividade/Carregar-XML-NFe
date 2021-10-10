@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><nfeProc versao="4.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+<NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+<infNFe Id="NFe31777777777777777777777770000036357777777777" versao="4.00">
+
+<ide>
+ <cUF>31</cUF>
+ <cNF>00004000</cNF>
+ <natOp>VENDA</natOp>
+ <mod>55</mod>
+ <serie>1</serie>
+ <nNF>3635</nNF>
+ <dhEmi>2021-10-04T08:33:53-03:00</dhEmi><dhSaiEnt>2021-10-04T08:33:53-03:00</dhSaiEnt>
+ <tpNF>1</tpNF><idDest>1</idDest><cMunFG>3138203</cMunFG><tpImp>1</tpImp>
+ <tpEmis>1</tpEmis><cDV>9</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal>
+ <indPres>0</indPres><procEmi>3</procEmi><verProc>4.01_sebrae_b034</verProc>
+</ide>
+
+<emit><CNPJ>11111111000111</CNPJ><xNome>CONNECTIVA REDES DE COMPUTADORES LTDA</xNome>
+<xFant>CONNECTIVA REDES DE COMPUTADORES</xFant><enderEmit><xLgr>RUA JOAO TEODORO DE CARVALHO</xLgr><nro>299</nro><xBairro>SERRA AZUL</xBairro>
+<cMun>3138203</cMun><xMun>Lavras</xMun><UF>MG</UF><CEP>37207691</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>3538224271</fone></enderEmit>
+<IE>0011001100011</IE><CRT>1</CRT></emit>
+
+<dest><CNPJ>99999999000999</CNPJ><xNome>CLIENTE MODELO LTDA</xNome>
+<enderDest><xLgr>RUA ANTONIO JOAO DA SILVA</xLgr><nro>100</nro><xBairro>JOAQUIM DA SILVA</xBairro><cMun>3138203</cMun><xMun>LAVRAS</xMun>
+<UF>MG</UF><CEP>37200000</CEP><cPais>1058</cPais><xPais>BRASIL</xPais></enderDest><indIEDest>1</indIEDest><IE>0099009900099</IE></dest>
+
+<det nItem="1"><prod><cProd>11.111</cProd><cEAN/>
+<xProd>DISCO SOLIDO INTERNO WESTERN DIGITAL WD GREEN WDS120G2G0A 120GB VERDE</xProd>
+<NCM>85235190</NCM><CFOP>5102</CFOP><uCom>UN</uCom><qCom>2.00</qCom><vUnCom>295.00</vUnCom><vProd>590.00</vProd><cEANTrib/><uTrib>UN</uTrib><qTrib>2.00</qTrib>
+<vUnTrib>295.00</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMSSN102><orig>0</orig><CSOSN>102</CSOSN></ICMSSN102></ICMS><PIS><PISNT><CST>08</CST></PISNT></PIS>
+<COFINS><COFINSNT><CST>08</CST></COFINSNT></COFINS></imposto></det>
+<det nItem="2"><prod><cProd>12.222</cProd><cEAN/><xProd>DISCO SOLIDO INTERNO WESTERN DIGITAL WD GREEN WDS240G2G0A 240GB VERDE</xProd>
+<NCM>85235190</NCM><CFOP>5102</CFOP><uCom>UN</uCom><qCom>1.00</qCom><vUnCom>355.00</vUnCom><vProd>355.00</vProd><cEANTrib/><uTrib>UN</uTrib><qTrib>1.00</qTrib>
+<vUnTrib>355.00</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMSSN102><orig>0</orig><CSOSN>102</CSOSN></ICMSSN102></ICMS><PIS><PISNT><CST>08</CST></PISNT></PIS>
+<COFINS><COFINSNT><CST>08</CST></COFINSNT></COFINS></imposto></det>
+<det nItem="3"><prod><cProd>33.333</cProd><cEAN/><xProd>FONTE ATX 250W DMIX A-250W S/ CABO DE FORCA</xProd>
+<NCM>85044029</NCM><CFOP>5102</CFOP><uCom>UN</uCom><qCom>1.00</qCom><vUnCom>120.00</vUnCom><vProd>120.00</vProd><cEANTrib/><uTrib>UN</uTrib><qTrib>1.00</qTrib>
+<vUnTrib>120.00</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMSSN102><orig>0</orig><CSOSN>102</CSOSN></ICMSSN102></ICMS><PIS><PISNT><CST>08</CST></PISNT></PIS>
+<COFINS><COFINSNT><CST>08</CST></COFINSNT></COFINS></imposto></det>
+
+<total><ICMSTot><vBC>0.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vFCPUFDest>0.00</vFCPUFDest><vICMSUFDest>0.00</vICMSUFDest><vICMSUFRemet>0.00</vICMSUFRemet>
+<vFCP>0.00</vFCP><vBCST>0.00</vBCST><vST>0.00</vST><vFCPST>0.00</vFCPST><vFCPSTRet>0.00</vFCPSTRet><vProd>1065.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg>
+<vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vIPIDevol>0.00</vIPIDevol><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>1065.00</vNF>
+<vTotTrib>0.00</vTotTrib></ICMSTot></total>
+<transp><modFrete>9</modFrete></transp><pag><detPag><indPag>1</indPag><tPag>15</tPag><vPag>1065.00</vPag></detPag></pag>
+<infRespTec><CNPJ>43728245000142</CNPJ><xContato>suporte</xContato><email>suporteemissores@sebraesp.com.br</email><fone>08005700800</fone></infRespTec>
+
+</infNFe>
+
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#NFe31777777777777777777777770000036357777777777">
+<Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>aBx0aBx0aBx0aBx0aBx0aBx0aBx=</DigestValue></Reference></SignedInfo>
+<SignatureValue>aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aB==</SignatureValue>
+
+<KeyInfo>
+<X509Data><X509Certificate>aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0&#13;
+aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0aBx0</X509Certificate></X509Data>
+</KeyInfo>
+
+</Signature>
+</NFe>
+
+<protNFe versao="4.00">
+    <infProt>
+      <tpAmb>1</tpAmb>
+      <verAplic>14.4.31-AN1</verAplic>
+      <chNFe>31777777777777777777777770000036357777777777</chNFe>
+      <dhRecbto>2021-10-04T08:37:51-03:00</dhRecbto>
+      <nProt>123456789012345</nProt>
+      <digVal>aBx0aBx0aBx0aBx0aBx0aBx0aBx=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+    </infProt>
+</protNFe></nfeProc>

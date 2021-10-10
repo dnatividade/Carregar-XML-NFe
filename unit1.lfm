@@ -1,0 +1,65 @@
+object frmNFe: TfrmNFe
+  Left = 461
+  Height = 586
+  Top = 61
+  Width = 1181
+  Caption = 'NFe'
+  ClientHeight = 586
+  ClientWidth = 1181
+  OnCreate = FormCreate
+  LCLVersion = '2.0.12.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 54
+    Top = 532
+    Width = 1181
+    Align = alBottom
+    ClientHeight = 54
+    ClientWidth = 1181
+    TabOrder = 0
+    object btXML: TBitBtn
+      Left = 1000
+      Height = 30
+      Top = 8
+      Width = 160
+      Caption = 'Carregar XML NF-e'
+      OnClick = btXMLClick
+      TabOrder = 0
+    end
+  end
+  object DBGrid1: TDBGrid
+    Left = 0
+    Height = 532
+    Top = 0
+    Width = 1181
+    Align = alClient
+    Color = clWindow
+    Columns = <>
+    DataSource = dsNFe
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit, dgDisableDelete, dgDisableInsert]
+    TabOrder = 1
+  end
+  object bfNFe: TBufDataset
+    FieldDefs = <>
+    Left = 57
+    Top = 21
+  end
+  object dsNFe: TDataSource
+    DataSet = bfNFe
+    Left = 160
+    Top = 21
+  end
+  object ActionList1: TActionList
+    Left = 384
+    Top = 21
+    object DefineBufFields: TAction
+      Caption = 'DefineBufFields'
+      OnExecute = DefineBufFieldsExecute
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Options = [ofAllowMultiSelect, ofEnableSizing, ofViewDetail]
+    Left = 944
+    Top = 528
+  end
+end
